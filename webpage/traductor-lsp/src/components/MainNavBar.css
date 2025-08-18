@@ -1,0 +1,95 @@
+nav {
+  background-color: #003400;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+/* Logo lado izquierdo */
+.navbar-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Secciones del medio */
+.navbar-center {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-center li a,
+.navbar-center li button {
+  color: #ffffff;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-center li a:hover,
+.navbar-center li button:hover {
+  color: #5ccb5f;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  background-color: #006414; 
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  border-radius: 4px;
+  min-width: 150px;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #009929; 
+}
+
+/* Botones lado derecho */
+.navbar-right {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navbar-right .btn-signin,
+.navbar-right .btn-signup {
+  background-color: #009929; 
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-right .btn-signin:hover,
+.navbar-right .btn-signup:hover {
+  background-color: #5ccb5f; 
+  color: #003400;
+}
