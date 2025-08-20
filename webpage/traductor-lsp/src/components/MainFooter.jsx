@@ -5,7 +5,7 @@ function MainFooter() {
         <footer>
             <div className="container footer-content">
                 <p>© {new Date().getFullYear()} Javier Ramirez – MIT License</p>
-                <nav>
+                <nav class='Foot-navbar'>
                     <ul>
                         <li>
                             <a
