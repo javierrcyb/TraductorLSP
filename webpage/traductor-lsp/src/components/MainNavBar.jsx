@@ -14,19 +14,20 @@ function MainNavBar() {
 
         {/* Secciones del medio */}
         <ul className="navbar-center">
-          <li><a href="#">Sección 1</a></li>
-          <li><a href="#">Sección 2</a></li>
+          <li><a href="#">Diccionario</a></li>
+          <li><a href="#">Traductor</a></li>
 
           {/* Sección con desplegable */}
           <li className="dropdown">
             <a href="#" onClick={(e) => { e.preventDefault(); setOpen(!open); }}>
-              Sección 3 ▾
+              Aprender LSP ▾
             </a>
             {open && (
               <ul className="dropdown-menu">
-                <li><a href="#">Subsección A</a></li>
-                <li><a href="#">Subsección B</a></li>
-                <li><a href="#">Subsección C</a></li>
+                <li><a href="#">Abecedario</a></li>
+                <li><a href="#">Palabras</a></li>
+                <li><a href="#">Oraciones</a></li>
+                <li><a href="#">Práctica Real</a></li>
               </ul>
             )}
           </li>

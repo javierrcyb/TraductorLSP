@@ -5,6 +5,9 @@ function MainFooter() {
         <footer>
             <div className="container footer-content">
                 <p>© {new Date().getFullYear()} Javier Ramirez – MIT License</p>
+                <p className="footer-quote">
+                    “La comunicación es un derecho, no un privilegio.”
+                </p>
                 <nav class='Foot-navbar'>
                     <ul>
                         <li>
