@@ -1,4 +1,4 @@
-# 🤟 LSP Translator & Learning App
+# 🤟 Traductor y Tutor LSP (Lenguaje de Señas Peruano)
 
 Un proyecto de inteligencia artificial y web app para la **Lengua de Señas Peruana (LSP)**.  
 Incluye funciones de **diccionario**, **traductor** y un **módulo de aprendizaje** interactivo con abecedario, palabras y oraciones simples.
