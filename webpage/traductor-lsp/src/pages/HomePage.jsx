@@ -27,8 +27,8 @@ function HomePage(){
         </p>
         <div className="about-cards">
           <div className="card">📚 Aprende paso a paso</div>
-          <div className="card">🎥 Práctica interactiva con tu cámara</div>
           <div className="card">🔊 Traducción señas ↔ voz/texto</div>
+          <div className="card">📙 Diccionario</div>
           <div className="card">🌎 Acceso gratuito y multiplataforma</div>
         </div>
       </section>
